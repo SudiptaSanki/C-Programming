@@ -1,0 +1,21 @@
+Before we start with with any programming first we need to know some basics which will quench your thurst of why we need programming.
+So we have some common questions in mind that :
+1.Why we need programming ? 
+2.What was the cause we invent such language like C ?
+3.What is Programming ?
+
+1. Why we need programming ?
+i.To Automate the Mundane
+ii.To Solve Complex Problems
+iii.To Solve Complex Problems
+iv.The "Superpower" Aspect
+
+2. What was the cause we invent such language like C ?
+To understand why C was invented, we have to imagine the "Dark Ages" of computing in the late 1960s. Back then, if we wanted to write an operating system (like Unix), we had two very frustrating choices:
+i.Assembly Language - You had to write instructions directly for the CPU. It was incredibly fast, but it was like building a skyscraper out of toothpicks. Worse, if you bought a new computer, your old code wouldn't work—you had to rewrite the entire thing from scratch.
+ii.High-Level Languages (like Fortran or B): These were easier to read, but they were often too slow or "clunky" to handle the delicate, high-speed tasks an operating system needs (like managing memory).
+
+3. What is Programming ?
+Computer programming is a medium for us to communicate with computers. Just like we
+use ‘English’ or 'Any Other languages' to communicate with each other, programming is a way 
+for us to deliver our set of instructions to the computer.

@@ -1,0 +1,17 @@
+Dependencies we need for C :
+1.MinGW gcc
+2.VS Code (Any IDE Platform will work)
+3.Code Runner(ctrl+alt+N) ---> Install it from VS code extension https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
+4.Peace of mind 🕊️✌🏼.
+
+Lets install MinGW :
+MinGW-w64 (The Engine)
+MinGW provides the GCC (GNU Compiler Collection), which is what actually turns your human-readable code into a .exe file.
+Crucial Step: You must add the bin folder of your MinGW installation (usually C:\mingw64\bin) to your System Environment Variables (PATH). Without this, VS Code won't know where the compiler lives.
+Verification: Open a terminal and type gcc --version. If it spits out a version number, you're good to go.
+
+VS Code (The Cockpit) :
+VS Code is just a fancy text editor until you give it "C powers."
+The Extension: Go to the Extensions view ($Ctrl+Shift+X$) and install the C/C++ Extension Pack by Microsoft. 
+This gives you IntelliSense (code completion) and debugging.
+The Runner: Most beginners love the Code Runner extension. It adds a "Play" button to the top right so you can run your code with one click instead of typing commands manually.

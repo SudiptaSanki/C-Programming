@@ -1,0 +1,5 @@
+### Module 1: Introduction & Environment Setup
+Before we write code, we need to understand the tools of the trade.
+* **The Story of C:** Why a language created in the 1970s still powers modern operating systems and embedded devices.
+* **Under the Hood:** How compilation works (Source Code $\rightarrow$ Preprocessor $\rightarrow$ Compiler $\rightarrow$ Assembler $\rightarrow$ Linker).
+* **Workspace Setup:** Installing the GCC compiler, configuring VS Code, and writing your very first `Hello, World!` program.
