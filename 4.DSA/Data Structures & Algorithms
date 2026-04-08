@@ -1,0 +1,52 @@
+# Phase 4: Data Structures & Algorithms (DSA)
+
+Welcome to **Phase 4**, the bridge between writing code that *works* and writing code that is *efficient*. This phase is heavily focused on preparing you for technical interviews and competitive programming. 
+
+We will explore how to structure data for extremely fast retrieval and how to write algorithms that don't choke when given millions of data points. 
+
+---
+
+## 📚 Module Overview
+
+### Module 12: Time & Space Complexity
+How do we measure if code is "good"?
+* **Asymptotic Notation:** Understanding Big O $O(n)$, Omega $\Omega(n)$, and Theta $\Theta(n)$.
+* **Loop Analysis:** Calculating the time complexity of nested loops and recursive calls.
+* **Space Complexity:** Trading memory usage for execution speed.
+
+### Module 13: Linear Data Structures
+Organizing data in a straight line.
+* **Linked Lists:** The foundation of dynamic structures.
+    * Singly Linked Lists: Insertion, deletion, and traversal.
+    * Doubly Linked Lists: Moving forward and backward.
+    * Circular Linked Lists.
+* **Stacks (LIFO):** Last-In, First-Out. 
+    * Implementation using both Arrays and Linked Lists.
+    * Application: Parentheses matching, reverse polish notation.
+* **Queues (FIFO):** First-In, First-Out.
+    * Linear Queues and Circular Queues.
+    * Application: Task scheduling.
+
+### Module 14: Non-Linear Data Structures
+Organizing data hierarchically and relationally.
+* **Trees:** Node terminology (Root, Leaf, Parent, Child).
+* **Binary Search Trees (BST):** Fast insertion and lookup.
+* **Tree Traversals:** Inorder, Preorder, and Postorder using recursion.
+* **Graphs (Introduction):** Representing networks using Adjacency Matrices and Adjacency Lists. 
+* **Graph Traversal:** Breadth-First Search (BFS) and Depth-First Search (DFS).
+
+### Module 15: Searching & Sorting Algorithms
+Putting data in order and finding it quickly.
+* **Searching:** Linear Search vs. Binary Search (and why the data must be sorted first).
+* **Basic Sorting ($O(n^2)$):** Bubble Sort, Selection Sort, and Insertion Sort.
+* **Advanced Sorting ($O(n \log n)$):** Merge Sort (Divide and Conquer) and Quick Sort.
+
+---
+
+## 🏆 Milestone 4: The "Inventory Visualizer"
+
+Build a warehouse inventory management system using a Linked List.
+* Each item (struct) has an ID, Name, Quantity, and Price.
+* Users can add items, but the Linked List must **always remain sorted** by ID upon insertion.
+* Implement a Binary Search function to find an item by its ID instantly.
+* Provide an option to generate a report, sorting the items by Price using Merge Sort.

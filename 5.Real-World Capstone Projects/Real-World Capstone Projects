@@ -1,0 +1,42 @@
+# Phase 5: Real-World Capstone Projects
+
+Congratulations on reaching **Phase 5**! You know the syntax, you understand memory, and you can write highly efficient algorithms. 
+
+Now, we leave the "sandbox" of academic programming. In this final phase, you will choose one or more capstone projects. These are not standard college assignments; these are systems-level programs that emulate real-world software engineering. Put these on your resume.
+
+---
+
+## 🚀 Project Options
+
+### Option 1: A Custom Command Line Shell (Mini-Bash)
+**The Goal:** Build your own terminal interface that can execute operating system commands.
+* **Skills Applied:** Infinite loops, advanced string parsing, system calls.
+* **Requirements:**
+    * Display a custom prompt (e.g., `my_shell> `).
+    * Read user input and parse arguments using `strtok()`.
+    * Use system calls like `fork()` to create a child process.
+    * Use `execvp()` to execute the command (like `ls -l` or `pwd`).
+    * Use `wait()` so the shell pauses until the command finishes.
+    * Implement built-in commands like `cd` and `exit`.
+
+### Option 2: Lightweight HTTP Web Server
+**The Goal:** Build a program that actually communicates over the internet to a web browser.
+* **Skills Applied:** Networking (`<sys/socket.h>`), file I/O, string manipulation.
+* **Requirements:**
+    * Create a socket and bind it to a port (e.g., `8080`).
+    * Listen for incoming connections.
+    * Accept a connection and read the HTTP GET request sent by the browser.
+    * Parse the requested file path.
+    * Open the corresponding `.html` file from your hard drive and send it back over the socket with a `200 OK` HTTP header.
+
+### Option 3: Virtual Machine / Bytecode Interpreter
+**The Goal:** Create a simulated computer CPU that reads custom "assembly" instructions and executes them.
+* **Skills Applied:** Bitwise operations, arrays as memory maps, `switch-case` state machines.
+* **Requirements:**
+    * Define an array to act as the "RAM".
+    * Define variables to act as CPU Registers (e.g., Program Counter, Accumulator).
+    * Invent a simple instruction set (e.g., `0x01` = ADD, `0x02` = JUMP, `0x03` = PRINT).
+    * Write a main loop that fetches an instruction from "RAM", decodes it, and executes it.
+
+---
+**Course Completion:** Once you finish a capstone project, you have officially graduated from this C Masterclass. You are now equipped with the fundamental systems-level knowledge to tackle Operating Systems, Embedded Systems, or Game Engine development!
